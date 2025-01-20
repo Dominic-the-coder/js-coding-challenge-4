@@ -15,6 +15,8 @@ const App = () => {
     return total;
   };
 
+  // const sum = calculateSum(numbers);
+
   const sum = useMemo(() => {
     return calculateSum(numbers);
   }, [numbers]);
